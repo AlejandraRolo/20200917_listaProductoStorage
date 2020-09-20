@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* con esta propiedad establecemos que el objeto no afecte su tamaño independiente de las propiedades que se definan, por ejemplo un padding*/
+    list-style: none;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background: url(../images/fondo_1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size:cover;
+    color:#fff;
+}
+
+.border-inferior > h3{
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #FAA307;
+}
